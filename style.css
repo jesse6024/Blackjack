@@ -1,0 +1,385 @@
+body{
+  background-color: lightgray;
+  overflow: hidden;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+ 
+  height: 50%;
+  width: 50%;
+
+}
+
+.center-h1{
+ 
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 460px;
+  left: -20px;
+  cursor: pointer;
+}
+ 
+.dealer-hand{
+    height: 80px;
+    width: 30px;
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    left: 35rem;
+    transform: rotate( 180deg) scaleX(-1);
+
+}
+
+  .dealer-hand-card-2{
+    height: 80px;
+    width: 30px;
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    left: 38rem;
+    transform: rotate( 180deg) scaleX(-1);
+    
+}
+
+.dealer-hand-card-2-face-down{
+  height: 80px;
+  width: 30px;
+  font-size: 25px;
+  position: absolute;
+  top: 150px;
+  left: 38rem;
+  color:red;
+  transform: rotate( 180deg) scaleX(-1);
+  
+}
+
+.dealer-hand-card-3{
+    height: 80px;
+    width: 30px;
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    left: 42rem;
+    transform: rotate( 180deg) scaleX(-1);
+
+}
+
+.dealer-hand-card-4{
+    height: 80px;
+    width: 30px;
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    left: 45rem;
+    transform: rotate( 180deg) scaleX(-1);
+
+}
+
+.dealer-hand-card-5{
+  height: 80px;
+  width: 30px;
+  font-size: 25px;
+  position: absolute;
+  top: 150px;
+  left: 48rem;
+  transform: rotate( 180deg) scaleX(-1);
+
+}
+
+.player-1-hand{
+  height: 80px;
+  width: 30px;
+  font-size: 25px;
+  position: absolute;
+  top: px;
+  left: 35rem;
+  transform: rotate( 180deg  ) scaleX(-1);
+  top: -100px;
+   
+}
+
+
+.player-1-hand{
+  height: 80px;
+  width: 30px;
+  font-size: 25px;
+  position: absolute;
+  left: 35rem;
+  transform: rotate( 180deg  ) scaleX(-1);
+  top: -100px;
+   
+}
+
+.player-1-hand2{
+  height: 80px;
+  width: 30px;
+  font-size: 25px;
+  position: absolute;
+  left: rem;
+  transform: rotate( 180deg ) scaleX(-1);
+  top: -100px;
+  z-index: 1;
+  left: 38rem;
+}
+   
+
+.player-1-hand3{
+  height: 80px;
+    width: 30px;
+    font-size: 25px;
+    position: absolute;
+    left: 40rem;
+    transform: rotate( 180deg ) scaleX(-1);
+    top: -100px;
+    z-index: 2;
+   
+}
+
+
+.player-1-hand4{
+  height: 80px;
+    width: 30px;
+    font-size: 25px;
+    position: absolute;
+    left: 42.1rem;
+    transform: rotate( 180deg ) scaleX(-1);
+    top: -100px;
+    z-index: 3;
+   
+}
+
+.player-1-hand5{
+  height: 80px;
+  width: 30px;
+  font-size: 25px;
+  position: absolute;
+  left: 44rem;
+  transform: rotate( 180deg  ) scaleX(-1);
+  top: -100px;
+  z-index: 4;
+}
+
+
+.btn-hit{
+  height: 50px;
+  width: 100px;
+  color: #0e0e0e;
+  border: 2px solid black;
+  background-color: green;
+  position: absolute;
+  bottom: 100px;
+  left: 700px;
+}
+
+
+.btn-stand{
+  height: 50px;
+  width: 100px;
+  color: #0e0e0e;
+  border: 2px solid black;
+  background-color: red;
+  position: absolute;
+  bottom: 100px;
+  left: 900px;
+}
+
+.btn-deal{
+  height: 50px;
+  width: 100px;
+  color: #0e0e0e;
+  border: 2px solid black;
+  background-color: blue;
+  position: absolute;
+  bottom: 100px;
+  left: 500px;
+
+}
+
+
+
+.test-container{
+  bottom:20px;
+
+}
+
+.top-chip-container{
+  background-image: url(/images/table-top-chip-container.png);
+}
+
+.padding-wrapper{
+  padding-bottom: 30em;
+}
+
+.containrer2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+
+.test-wrapper{
+  display:block
+}
+
+
+
+.Outer {
+ width: 80vw;
+ height: 20vh;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Inner {
+ 
+  position: absolute;
+  right: 10px;
+  bottom: -10em;
+  left: 10px;
+  cursor: pointer;
+}
+
+.semi-circle{
+  background-image: url(/images/table-background.png);
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  border: 10px solid rgb(5, 5, 5);
+  transform: rotate(180deg) scaleX(-1);
+  cursor: default;
+}
+
+
+.card-1-bottom-right-corner{
+  position: absolute;
+  top: -465px;
+  color: red;
+  font-size: 20px;
+  left: 37px;
+}
+
+.card-1-top-left-corner{
+  position: absolute;
+  bottom: 355;
+  color: red;
+  font-size: 20px;
+  /* left: 50px; */
+  transform: rotate(180deg) scaleX(-1);
+  }
+
+
+
+
+.rectangle {
+  height: 80px;
+  float: left;
+  border: 1px solid black;
+  padding: 20px;
+  width: 30px;
+}
+
+.text-container-card {
+  font-size: 25px;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 25px;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+
+.card.red {
+color: red;
+}
+
+.card.black {
+color: black;
+}
+
+.card.blue{
+background-color:blue;
+color:blue;
+
+}
+
+.card::before,
+.card::after {
+position: absolute;
+content: attr(data-value);
+font-size: 1rem;
+}
+
+.card::before {
+top: .5rem;
+left: .5rem;
+
+}
+
+.card::after {
+bottom: .5rem;
+right: .5rem;
+transform: rotate(180deg);
+}      
+
+
+.card{
+  height: 100px;
+  float: left;
+  border: 1px solid black;
+  padding: 20px;
+  width: 60px;
+  font-size: 40px;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 25px;
+    background-color: white;
+    top: -250px;
+     justify-content: center;
+     align-items: center;
+     display:flex;
+}
+
+
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position:absolute;
+  width: 100%;
+  right: -650px;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.card2{
+  height: 80px;
+  float: left;
+  border: 1px solid black;
+  padding: 20px;
+  width: 30px;
+  font-size: 25px;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 25px;
+    left: 90px;
+    background-color: white;
+    bottom: 350px;
+
+}
+
+
