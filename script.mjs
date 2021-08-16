@@ -84,7 +84,7 @@ console.log(deck.cards[9]);
   
 
 document.querySelector('.btn-deal').addEventListener("click", function(){
-deck.shuffle();
+deck.shuffle()
 
 computerCardSlot6.appendChild(deck.cards[0].getHTML());
 computerCardSlot7.appendChild(deck.cards[1].getHTML());
@@ -118,56 +118,31 @@ console.log(ZZ)
 
 });
 
-function getValue(){
-  let cardvalue = deck.cards
-  switch(cardvalue){
-  case 'A':
-    1
-    break;
-    case '2':
-      2
+function getValue(cardvalue) {
+  switch (cardvalue) {
+    case 'A':
+      return 1
       break;
-      case '3':
-        3
-        break;
-        case '4':
-         4 
-         break
-         case '5':
-           5
-            break;
-            case '6':
-              6
-              break;
-              case '7':
-                7
-                break;
-                case '8':
-                  8
-                  break;
-                  case '9':
-                  9  
-                  break;
-                    case '10':
-                      10
-                      break;
-                      case 'J':
-                        10
-                        break
-                      case 'Q':
-                        10
-                        break;
-                        case 'K':
-                          10
-                        break;
 
+    case '2':
+    case '3':
+    case '4':
+    case '5':
+    case '6':
+    case '7':
+    case '8':
+    case '9':
+    case '10':
+      return parseInt(cardvalue);
+      break;
 
-
-
-
-   }
+    case 'J':
+    case 'Q':
+    case 'K':
+      return 10;
+      break;
+  }
 }
-
 
 
 
